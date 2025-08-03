@@ -7,7 +7,7 @@ pipeline
     {
       steps
       {
-      'git branch: 'main', url: 'https://github.com/beingKhanvilkar/jenkins-ansible.git'
+        git branch: 'main', url: 'https://github.com/beingKhanvilkar/jenkins-ansible.git'
       }
    }
   stage('Run Ansible Playbook')
