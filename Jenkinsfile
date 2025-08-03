@@ -5,9 +5,10 @@ pipeline
   {
     stage('git clone')
     {
-      steps{
-      'git branch: 'main', url: 'https://github.com/beingKhanvilkar/jenkins-ansible.git''
-           }
+      steps
+      {
+      'git branch: 'main', url: 'https://github.com/beingKhanvilkar/jenkins-ansible.git'
+      }
    }
   stage('Run Ansible Playbook')
     {
